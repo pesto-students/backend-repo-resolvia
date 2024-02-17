@@ -1,0 +1,36 @@
+{
+  "name": "resolviabackend",
+  "version": "1.0.0",
+  "description": "Resolvia backend built on node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abishek3896/ResolviaBackend.git"
+  },
+  "author": "Abishek Sridhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abishek3896/ResolviaBackend/issues"
+  },
+  "homepage": "https://github.com/Abishek3896/ResolviaBackend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1548.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
